@@ -1,15 +1,19 @@
 field,display_name,browse_link,external_link
 title,Title,
-creator,Creator,
+object_location,Link,
 date,Date Created,
 description,Description,
 subject,Subjects,true
 location,Location
-latitude,Latitude
-longitude,Longitude
-source,Source
-identifier,Source Identifier,,
-type,Type,
+duration,Duration
+timestamp,Timestamps
+relation,Relation
+objectid,Identifier,,
+camera_angle,Camera Angle,
 format,Format,
 rights,Rights,
-rightsstatement,Rights Statement,,true
+contributor,Contributor
+frame_width,Frame Width
+frame_height,Frame Height
+frame_rate,Frame Rate
+youtubeid,YouTube ID
