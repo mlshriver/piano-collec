@@ -51,16 +51,16 @@ map-cluster-radius: # size of clusters, from ~ 10 to 80
 # TIMELINE PAGE
 #
 year-navigation: #"1900;1905;1910;1915;1920" # set years to appear in dropdown nav, leave blank to auto gen
-year-nav-increment: 5 # set increments when auto gen nav years
+year-nav-increment: 1 # set increments when auto gen nav years
 
 ##########
 # DATA 
 #
 # add metadata fields for export in data downloads (tip: paste in first row of csv)
 # comma delimited list, reference url is automatic
-metadata-export-fields: "title,creator,date,description,subject,location,latitude,longitude,source,identifier,type,format,language,rights,rightsstatement"
+metadata-export-fields: "objectid,filename,title,date,location,description,timestamp,subject,relation,rights,duration,camera_angle,contributor,frame_width,frame_height,frame_rate,display_template,object_location,youtubeid,format"
 # generate a facets list for given fields, comma delimited
-metadata-facets-fields: "subject,creator,format"
+metadata-facets-fields: "objectid,filename,title,date,location,description,timestamp,subject,relation,rights,duration,camera_angle,contributor,frame_width,frame_height,frame_rate,display_template,object_location,youtubeid,format"
 
 ##########
 # COMPOUND OBJECTS
@@ -90,7 +90,7 @@ navbar-background: bg-dark
 # BOOTSWATCH THEMES
 # You can replace the standard Bootstrap theme with a Bootswatch (https://github.com/thomaspark/bootswatch) option
 # Enter one of the following options below: cerulean; cosmo; cyborg; darkly; flatly; journal; litera; lumen; lux; materia; minty; pulse; sandstone; simplex; sketchy; slate; solar; spacelab; superhero; united; yeti 
-bootswatch: # leave blank or comment out for plain bootstrap
+bootswatch: darkly # leave blank or comment out for plain bootstrap
 
 # THEME FONTS
 base-font-size: 1.2em
