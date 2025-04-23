@@ -4,7 +4,7 @@
     This include adds a Bootstrap Carousel component populated with randomly selected image items, designed with index page in mind. 
     https://getbootstrap.com/docs/5.1/components/carousel/
 
-    E.G. --> {% include index/carousel.html title="Sample Items" height=450 %}
+    E.G. --> {% include index/carousel.html title="Sample Pieces" height=450 %}
 
     Options:
 
@@ -29,7 +29,7 @@
 
 {%- assign carousel-max = include.max | default: 9 -%}
 {%- assign btn-color = include.btn-color | default: "primary" -%}
-{%- assign btn-text = include.btn-text | default: "View Item" -%}
+{%- assign btn-text = include.btn-text | default: "View Info" -%}
 
 {%- comment -%}
     Set up carousel div
