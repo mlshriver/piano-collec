@@ -1,5 +1,7 @@
 field,display_name,btn,hidden,sort_name
-date,Date,,,Date
-creator,Creator,,,
-subject,,true
+date,Date,,,Recording Date
+title,,,,
+subject,Subject,true
 location,,true
+camera_angle,Camera Angle,,true,Camera Angle
+contributor,Contributor,true,,Feline Contributor
