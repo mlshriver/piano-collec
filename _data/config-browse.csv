@@ -1,6 +1,6 @@
 field,display_name,btn,hidden,sort_name
 date,Date,,,Recording Date
-title,,,,
+title,Title,,,
 subject,Subject,true
 location,,true
 camera_angle,Camera Angle,,true,Camera Angle
