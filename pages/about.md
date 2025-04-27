@@ -8,7 +8,7 @@ credits: true
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-
+{% include feature/image.html objectid="/objects/pianohands.jpg" width="75" %}
 
 ## About the Collection
 
